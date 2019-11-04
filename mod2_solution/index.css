@@ -1,0 +1,178 @@
+#Box1
+{
+
+	margin: 1px;
+	padding: 0.5px;
+	border: solid ;
+	border-color: black;
+	background-color: #999999;
+	width: 33.2%;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	font-family: cursive;
+
+}
+
+#Box2
+{
+
+	margin: 1px;
+	padding: 0.5px;
+	border: solid ;
+	border-color: black;
+	background-color: #999999;
+	width: 33.2%;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	font-family: cursive;
+
+}
+
+#Box3
+{
+
+	margin: 1px;
+	padding: 0.5px;
+	border: solid ;
+	border-color: black;
+	background-color: #999999;
+	width: 33.2%;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	font-family: cursive;
+
+}
+#content
+{
+color: black;
+margin: 5px; 
+ 
+
+}
+
+
+h1{
+	margin: 30px 0px 30px 0px;
+	text-align: center;
+	font-family:cursive;
+}
+
+
+
+#chicken
+{
+	
+	width: 100px;
+	height: 20px;
+	top: 0px;
+	right: 0px;
+	border:1px solid black ;
+	position:absolute;
+	background-color:#d59898 ;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: :0px;
+}
+
+#beef {
+
+	height: 20px;
+	color:white;
+	width: 100px;
+	top: 0px;
+	right: 0px;
+	border:1px solid black ;
+	position:absolute;
+	text-align: center;
+	font-weight: bold;
+	background-color: #c14543;
+	margin: 0px;
+
+}
+
+#sushi {
+
+	height: 20px;
+	margin: 0px;
+	width: 100px;
+	top: 0px;
+	right: 0px;
+	border:1px solid black ;
+	position:absolute;
+	text-align: center;
+	font-weight: bold;
+	background-color: #e5d198;
+}
+
+
+
+
+@media (min-width:992px) and (max-width: 1512px){
+
+	body {
+		/*background-color: lightgreen;*/
+		
+	}
+
+	#Box1{
+		width: 33.1%;
+	}
+	#Box2{
+		width: 33.1%
+	}
+	#Box3{
+		width: 33.1%
+	}
+}
+
+
+
+
+/* Medium devíces only */
+
+@media (min-width:768px) and (max-width: 991px){
+
+	body {
+	/*	background-color: grey;*/
+	}
+
+	#Box1{
+		width: 49.7%;
+	}
+	#Box2{
+		width: 49.7%
+	}
+	#Box3{
+		width: 99.6%
+	}
+}
+
+
+/* Small devíces only */
+
+@media  (max-width: 767px){
+
+	body {
+		/*background-color: yellow;*/
+	}
+
+	#Box1{
+		width: 100%;
+	}
+	#Box2{
+		width: 100%
+	}
+	#Box3{
+		width: 100%
+	}
+}
+
+
+
+
